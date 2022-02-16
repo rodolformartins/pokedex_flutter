@@ -9,7 +9,11 @@ class PokeDexHomePage extends StatefulWidget {
 }
 
 class _PokeDexHomePageState extends State<PokeDexHomePage> {
+
+  //Instanciando a classe
   ApiMethods metodo = ApiMethods();
+
+  
   @override
   Widget build(BuildContext context) {
     return SafeArea(
